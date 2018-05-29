@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9DDD19A520B4CAD9009B8909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD19A420B4CAD9009B8909 /* AppDelegate.swift */; };
-		9DDD19A720B4CAD9009B8909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD19A620B4CAD9009B8909 /* ViewController.swift */; };
+		9DDD19A720B4CAD9009B8909 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD19A620B4CAD9009B8909 /* WeatherViewController.swift */; };
 		9DDD19AA20B4CAD9009B8909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD19A820B4CAD9009B8909 /* Main.storyboard */; };
 		9DDD19AD20B4CAD9009B8909 /* weatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD19AB20B4CAD9009B8909 /* weatherApp.xcdatamodeld */; };
 		9DDD19AF20B4CADA009B8909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD19AE20B4CADA009B8909 /* Assets.xcassets */; };
 		9DDD19B220B4CADA009B8909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DDD19B020B4CADA009B8909 /* LaunchScreen.storyboard */; };
+		9DDD19BA20B4CB7B009B8909 /* CityInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD19B920B4CB7B009B8909 /* CityInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DDD19A120B4CAD9009B8909 /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDD19A420B4CAD9009B8909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DDD19A620B4CAD9009B8909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DDD19A620B4CAD9009B8909 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		9DDD19A920B4CAD9009B8909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DDD19AC20B4CAD9009B8909 /* weatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weatherApp.xcdatamodel; sourceTree = "<group>"; };
 		9DDD19AE20B4CADA009B8909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DDD19B120B4CADA009B8909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DDD19B320B4CADA009B8909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DDD19B920B4CB7B009B8909 /* CityInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9DDD19A420B4CAD9009B8909 /* AppDelegate.swift */,
-				9DDD19A620B4CAD9009B8909 /* ViewController.swift */,
+				9DDD19A620B4CAD9009B8909 /* WeatherViewController.swift */,
 				9DDD19A820B4CAD9009B8909 /* Main.storyboard */,
+				9DDD19B920B4CB7B009B8909 /* CityInputViewController.swift */,
 				9DDD19AE20B4CADA009B8909 /* Assets.xcassets */,
 				9DDD19B020B4CADA009B8909 /* LaunchScreen.storyboard */,
 				9DDD19B320B4CADA009B8909 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DDD19A720B4CAD9009B8909 /* ViewController.swift in Sources */,
+				9DDD19BA20B4CB7B009B8909 /* CityInputViewController.swift in Sources */,
+				9DDD19A720B4CAD9009B8909 /* WeatherViewController.swift in Sources */,
 				9DDD19AD20B4CAD9009B8909 /* weatherApp.xcdatamodeld in Sources */,
 				9DDD19A520B4CAD9009B8909 /* AppDelegate.swift in Sources */,
 			);
